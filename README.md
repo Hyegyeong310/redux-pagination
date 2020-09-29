@@ -1,5 +1,5 @@
 ## Redux Pagination
-Pagination 구현하기 [[바로가기](https://hyegyeong310.github.io/redux-pagination/)]
+Pagination 구현 [[바로가기](https://hyegyeong310.github.io/redux-pagination/)]
 
 ### Use
 React, Redux, Redux-saga, React-Bootstrap
