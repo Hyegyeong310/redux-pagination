@@ -20,7 +20,9 @@ function PaginationComponent() {
   }, [activeId, total]);
 
   useEffect(() => {
-    if (activeId >= 4 && activeId < total - 2) {
+    if (activeId < 4) {
+      setDisplayedRange([2, 3, 4, 5, 6]);
+    } else if (activeId >= 4 && activeId < total - 2) {
       setDisplayedRange([
         activeId - 2,
         activeId - 1,
